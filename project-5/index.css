@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.main{
+    float:left;
+    width: 100%;
+    clear:both;
+    
+}
+.header{
+    position: fixed;
+    float:left;
+    width: 100%;
+    padding:20px 0px;
+    /*border-bottom:1px solid blue;*/
+    background-color:rgba(0,0,0,0.1);
+    
+    
+}
+.container{
+    width: 1200px;
+    /*border-top:1px solid red;*/
+    margin:0px auto;
+}
+.logo{
+    float:left;
+}
+.logo h1{
+    font-family: calibri;
+    color: white;
+    
+}
+.menus{
+    float:right;
+}
+.menus ul{
+    /*border: 1px solid green;*/
+    margin-top:5px; 
+}
+.menus ul li{
+    display: inline;
+    margin:0px 15px;
+}
+.menus ul li a{
+    font: size 25px;
+    color:white;
+    font-family: calibri;
+    text-decoration: none;
+}
+.section1{
+    float:left;
+    width: 100%;
+    padding:200px 0px;
+    background:url(wp2565084.jpg)no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.section2{
+    float:left;
+    width: 100%;
+    padding:200px 0px;
+    background:url(wp2557980.jpg)no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.section3{
+    float:left;
+    width: 100%;
+    padding:200px 0px;
+    background:url(wp2712104.jpg)no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.section4{
+    float:left;
+    width: 100%;
+    padding:200px 0px;
+    background:url(wp2733971.jpg)no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.btn{
+    padding:10px 25px;
+    font-size: 20px;
+    border:2px solid white;
+    background:black;
+    color:white;
+    opacity:0.5;
+}
